@@ -1,0 +1,10 @@
+# Protect ADNI raw patient-level data (ADNI DUA compliance)
+*.csv
+!tables/*.csv
+data*/
+*.docx
+*.pdf
+*.tif
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
